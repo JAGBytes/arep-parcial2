@@ -32,7 +32,6 @@ public class PellController {
         List<Integer> sec = new ArrayList<>();
         
         for(int i = 0; i<=value; i++){
-            
             sec.add(pellNumber(i));
         }
         return sec;
