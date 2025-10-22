@@ -27,7 +27,7 @@ import java.net.URL;
 public class ProxyController {
     private static final String USER_AGENT = "Mozilla/5.0";
 
-    @GetMapping("/pell")
+    @GetMapping("/pellseq")
     public ResponseEntity<?> pellService(@RequestParam int value) throws Exception{
         
     
@@ -38,12 +38,12 @@ public class ProxyController {
     
     try{
         System.out.println("intento instancia 1");
-        res = HttpConnection("http://localhost:8080/pell?value="+value);
+        res = HttpConnection("http://34.232.145.79:8080/pell?value="+value);
         
     }catch(Exception e){
         System.out.println("1 no responde");
         System.out.println("intento instancia 2");
-        res = HttpConnection("http://localhost:8080/pell?value="+value);
+        res = HttpConnection("http://52.22.228.202:8080/pell?value="+value);
 
     }
         

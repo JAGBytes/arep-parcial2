@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PellController {
 
-    @GetMapping("/pell")
+    @GetMapping("/pellseq")
     public Map<String, Object> pellService(@RequestParam int value) {
 
         
