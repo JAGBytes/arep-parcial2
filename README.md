@@ -71,7 +71,7 @@ luego se cambiar las rutas del proxy para que apuntes a las ips de las ec2 que t
     }
 ```
 
-posteriormente de clona el proyecto en cada una de las instancias y y se inicial en dos un mathService y en otra el proxy como se explico en la parte anterior
+posteriormente de clonar el proyecto en cada una de las instancias y se inicial en dos un mathService y en otra el proxy como se explico en la parte anterior
 
 ## evidencia
 
@@ -91,7 +91,7 @@ Ahora hacemos que se caiga el primer servidor y hacemos peticiones para ver que 
 ![alt text](<images/Screenshot 2025-10-22 105006.png>)
 
 ## Video
-en el repo
+en el repo en la carpeta images
 <video controls src="images/video.mp4" title="Title"></video>
 
 
